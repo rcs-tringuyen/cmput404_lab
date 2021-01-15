@@ -12,9 +12,10 @@
 - Try installing requests.
 - `pip install requests`
 
-- Make a Python script that prints out the version of the requests library.
+- Make a Python script that prints out the version of the requests library. [DONE: print_requests_version.py]
 
 ### Question 2: What version is the requests library installed on the system?
+- 2.25.0
 
 - Create a virtualenv.
 - `virtualenv venv --python=python3`
