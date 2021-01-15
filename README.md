@@ -16,7 +16,7 @@
 
 ### Question 2: What version is the requests library installed on the system?
 - 2.25.0
-
+----------------------------------------------
 - Create a virtualenv.
 - `virtualenv venv --python=python3`
 - Activate the python virtual environment.
@@ -27,6 +27,7 @@
 
 ### Question 3: What version is the requests library installed in the virtualenv?
 
+-----------------------------------------------
 - Open a new terminal.
 - Run the script in your new terminal.
 
