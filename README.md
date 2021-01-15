@@ -4,6 +4,7 @@
 - Make a GitHub account or log in to your existing GitHub account.
 
 ### Question 1: What is your GitHub URL?
+- https://github.com/rcs-tringuyen
 
 ## virtualenv
 - Create a new directory for this lab (mkdir).
