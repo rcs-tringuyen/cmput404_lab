@@ -66,4 +66,4 @@
 - Push the new version of your Python script to GitHub.
 
 ### Question 8: What is the raw URL to your Python script on GitHub?
-- https://raw.githubusercontent.com/rcs-tringuyen/cmput404_lab1/main/print_requests_version.py?token=AKIOAYH65OJ5GCIQTW7P623AAH4ZK
+- https://raw.githubusercontent.com/rcs-tringuyen/cmput404_lab/main/Lab1/print_requests_version.py?token=AKIOAYBUISKTVOLTKGD4OJDAAY3SK
