@@ -28,6 +28,7 @@ def main():
 		print('Starting proxy server')
 		proxy_start.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 		proxy_start.bind((HOST, PORT))
+		print(f"Starting TCP on {HOST} at port {PORT}")
 		#set to listening, queue of pending connection is 1
 		proxy_start.listen(1)
 		while True:
@@ -43,12 +44,14 @@ def main():
 				proxy_end.connect((remote_ip, port))
 				#grabbing the data from the client, then send it to google
 				send_full_data = conn.recv(BUFFER_SIZE)
-				print(f"Sending recieved data {send_full_data} to google")
+				print(f"Sending recieved data {send_full_data} from {addr} to google")
 				proxy_end.sendall(send_full_data)
 				proxy_end.shutdown(socket.SHUT_WR)
 
 				#now grabbing the data from google, sending it back to the client
 				data = proxy_end.recv(BUFFER_SIZE)
+				print(f'Data received from google')
+				time.sleep(0.5)
 				print(f'Sending recieved data {data} to client')
 				conn.sendall(data)
 
