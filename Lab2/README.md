@@ -45,3 +45,4 @@
 - Push your code to GitHub.
 
 ### Question 6: Provide a link to your code on GitHub.
+- https://github.com/rcs-tringuyen/cmput404_lab/tree/main/Lab2
