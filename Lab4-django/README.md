@@ -5,3 +5,4 @@
 5) We see the authentication database (contain users) and the polls database (with questions and choices columns). To add custom models you can add it in polls/models.py then do a migration.
 6) We can see the response string variable when go to the urls. We get 404 Not Found when using string. We can use "str" instead of "int".
 7) When URL get complex, hardcode URL will lead to 404 and other side effect. It is very hard to debug this as well. 
+8) Reduce the time to create boilerplate files. But when you need a really custom view, might as well just write it without the generic template, though some do allow you to modify/overwrite methods.
